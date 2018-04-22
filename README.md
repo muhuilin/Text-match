@@ -43,15 +43,15 @@ Linux下基于C开发的项目，目的是在corpus1.txt（49,159,731 字节）�
 3456
 
 结构图：
-&nbsp&nbsp&nbsp&nbsp	  root
-&nbsp&nbsp&nbsp&nbsp		  /       
-&nbsp&nbsp&nbsp&nbsp		1    -   2   -   3
-&nbsp&nbsp&nbsp&nbsp		|  &nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp&nbsp|
-&nbsp&nbsp&nbsp&nbsp		2 &nbsp&nbsp3&nbsp&nbsp &nbsp4
-&nbsp&nbsp&nbsp&nbsp	/    &nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp &nbsp|
-&nbsp&nbsp 3   -  4 4&nbsp&nbsp &nbsp5
-&nbsp&nbsp |   &nbsp&nbsp&nbsp |&nbsp&nbsp | &nbsp&nbsp &nbsp\
-&nbsp&nbsp4  &nbsp&nbsp   5&nbsp&nbsp 5 - 6&nbsp6
+		  root
+		  /       
+		 1 - 2 - 3
+		|    |   |
+		2    3   4
+	       /     |   |
+	      3-4    4   5
+	      | |    |   |
+	      4 5    5-6 6
 	
 在内存池2中的顺序为
 123234344545566
