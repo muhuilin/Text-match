@@ -34,21 +34,22 @@ Linux下基于C开发的项目，目的是在corpus1.txt（49,159,731 字节）�
 
 * first head在内存池1中的头节点
 * last tail在内存池1中的头节点 还要额外进行nextnode的链接
-
+	
+	
 1234
 1245
 2345
 2346
 3456
-				&nbsp&nbsp&nbsp&nbsp	  root
-	&nbsp&nbsp&nbsp&nbsp		  /       
-	&nbsp&nbsp&nbsp&nbsp		1    -   2   -   3
-	&nbsp&nbsp&nbsp&nbsp		|  &nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp&nbsp|
-	&nbsp&nbsp&nbsp&nbsp		2 &nbsp&nbsp3&nbsp&nbsp &nbsp4
-	 &nbsp&nbsp&nbsp&nbsp	/    &nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp &nbsp|
-	&nbsp&nbsp 3   -  4 4&nbsp&nbsp &nbsp5
-	&nbsp&nbsp |   &nbsp&nbsp&nbsp |&nbsp&nbsp | &nbsp&nbsp &nbsp\
-	&nbsp&nbsp4  &nbsp&nbsp   5&nbsp&nbsp 5 - 6&nbsp6
+&nbsp&nbsp&nbsp&nbsp	  root
+&nbsp&nbsp&nbsp&nbsp		  /       
+&nbsp&nbsp&nbsp&nbsp		1    -   2   -   3
+&nbsp&nbsp&nbsp&nbsp		|  &nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp&nbsp|
+&nbsp&nbsp&nbsp&nbsp		2 &nbsp&nbsp3&nbsp&nbsp &nbsp4
+&nbsp&nbsp&nbsp&nbsp	/    &nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp &nbsp|
+&nbsp&nbsp 3   -  4 4&nbsp&nbsp &nbsp5
+&nbsp&nbsp |   &nbsp&nbsp&nbsp |&nbsp&nbsp | &nbsp&nbsp &nbsp\
+&nbsp&nbsp4  &nbsp&nbsp   5&nbsp&nbsp 5 - 6&nbsp6
 	
 在内存池2中的顺序为
 123234344545566
