@@ -41,6 +41,8 @@ Linux下基于C开发的项目，目的是在corpus1.txt（49,159,731 字节）�
 2345
 2346
 3456
+
+结构图：
 &nbsp&nbsp&nbsp&nbsp	  root
 &nbsp&nbsp&nbsp&nbsp		  /       
 &nbsp&nbsp&nbsp&nbsp		1    -   2   -   3
